@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <style>
+        .my-classs {
+
+            border: 1px solid red;
+            height: 100px;
+            width: 100px;
+        }
+
+        .my-classs:active {
+            -ms-transform: translate(50px, 100px);
+
+            -webkit-transform: translate(50px, 100px);
+
+            transform: translate(50px, 100px);
+        }
+
+        .my-rotate {
+            border: 1px solid red;
+            height: 100px;
+            width: 100px;
+
+        }
+
+        .my-rotate:active {
+            transform: rotate(120deg);
+        }
+
+        .my-scale {
+            height: 100px;
+            width: 100px;
+
+            border: 1px solid red;
+            transform: scale(1, 2);
+        }
+
+        .my-skew {
+            height: 100px;
+            width: 100px;
+
+            border: 1px solid green;
+            transform: skew(20deg, 10deg);
+            transform: skewY(20deg, 10deg);
+            transform: skewX(10deg)
+        }
+
+        .my-matrix {
+            height: 100px;
+            width: 100px;
+
+            border: 1px solid green;
+            transform: matrix(1, -0.3, 0, 1, 0, 0);
+        }
+
+        div {
+            height: 100px;
+            width: 100px;
+            border: 1px solid red;
+        }
+
+        .text-center {
+            text-align: center !important;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <div class="my-classs">
+        my-classs
+    </div>
+
+    <div class="my-rotate">
+        my-classs
+    </div>
+
+
+    <div class="my-scale">
+        my-classs
+    </div>
+
+
+    <div class="my-skew">
+        my-skew
+    </div>
+
+    <div class="my-matrix">
+        matrix
+    </div>
+
+    <h2>CSS Shadow Effects </h2>
+
+    <div style="
+    box-shadow: 10px 10px 10px 10px #aaaa; 
+    height: 100px; 
+    width: 100px;     ">
+
+
+        Box Shadow
+
+    </div>
+
+
+    <p style="text-shadow:3px 2px 8px red">
+        Welcome
+    </p>
+
+    <h2>CSS Text Effects </h2>
+
+
+
+    <div style="  
+        border: 1px solid red; 
+        /* white-space: nowrap;  */
+        width: 200px; 
+        height: 200px;
+        border: 1px solid #000000;
+        /* overflow: auto; */
+        /* text-overflow: ellipsis; */
+
+         /* word-wrap: break-word; */
+        ">
+        CSS Text EffectsCSS Text EffectsCSS Text EffectsCSS Text
+        EffectsCSS Text EffectsCSSTextEffectsCSSTextEffectsCSSText Effects </div>
+
+
+    <h2>CSS 2D Transforms </h2>
+
+
+    <h2>CSS 3D Transforms </h2>
+
+    <ul>
+
+        <li>rotateX</li>
+        <li>rotateY</li>
+        <li>rotateZ</li>
+
+    </ul>
+
+    <p>rotateX</p>
+
+    <div style="transform: rotateX(120deg);">
+        rotateX
+    </div>
+
+    <div style="transform: rotateY(240deg);">
+        rotateY
+    </div>
+
+    <div style=" transform: rotateZ(90deg);">
+        rotateZ
+    </div>
+
+
+
+</body>
+
+</html>

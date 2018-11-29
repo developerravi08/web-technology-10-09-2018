@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CSS 3 </title>
+
+    <link rel="stylesheet" href="css/demo.css">
+
+    <style>
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        .dropdown-content {
+            display: none;
+
+            box-shadow: 0px 2px 4px 2px #aaaaaa;
+            /* height: 100px; */
+
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+
+        }
+
+        a[target] {
+            background-color: yellow;
+        }
+
+        div.border {
+            border-image: url('images/pic.jpg')
+        }
+
+        .container .side-nav ul li a img {
+            width: 100px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h3>CSS Dropdowns </h3>
+
+    <div class="dropdown">
+        <span>Mouse over me</span>
+        <div class="dropdown-content">
+            <p>Hello World!</p>
+            <ul>
+                <li>
+                    9
+                </li>
+                <li>
+                    9
+                </li>
+                <li>
+                    9
+                </li>
+                <li>
+                    9
+                </li>
+                <li>
+                    9
+                </li>
+                <li>
+                    9
+                </li>
+                <li>
+                    9
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <img src="images/pic.jpg" alt=" new Img">
+
+    <a href="" target="_blank"> Raj</a>
+
+
+    <h2>CSS Advanced </h2>
+
+    <h3>CSS Rounded Corners </h3>
+
+    <div style="border: 1px solid red; height: 100px; width: 100px; border-radius: 15px; ">
+
+    </div>
+    <div style="border: 1px solid red; height: 100px; width: 100px; border-radius: 15px 0px; ">
+
+    </div>
+    <div style="border: 1px solid red; height: 100px; width: 100px; border-radius: 15px 5px 10px; ">
+
+    </div>
+    <div id="borderId" style="border: 1px solid red; height: 100px; width: 100px; border-radius: 15px 50px 100px 5px; ">
+
+    </div>
+
+
+    <script>
+        document.getElementById('borderId').innerHTML = 'border Div';
+    </script>
+
+    <script src="js/demo.js"></script>
+</body>
+
+</html>

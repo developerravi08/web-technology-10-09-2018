@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <h1>Welcome to 3rd Day Session&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;asd</h1>
+
+    <p>&reg;</p>
+
+
+
+    <div style="margin: 0 auto; border: 1px solid #aaaaaa ;width: 300px; padding: 15px;">
+        <form>
+            <label for=""> First name:</label> <br>
+            <input type="text" name="firstname"><br>
+            Last name:<br>
+            <input type="text" name="lastname"> <br>
+            <input type="radio" name="gender" value="male" checked> Male<br>
+            <input type="radio" name="gender" value="female"> Female<br>
+            <input type="radio" name="gender" value="other"> Other
+            <br>
+            <select name="cars">
+                <option value="volvo">Volvo</option>
+                <option value="saab">Saab</option>
+                <option value="fiat">Fiat</option>
+                <option value="audi">Audi</option>
+            </select>
+
+            <textarea name="message" rows="10" cols="30">
+                    The cat was playing in the garden.
+                    </textarea>
+            <input type="button" value="Send" onclick="alert('Hello World!')">
+
+        </form>
+    </div>
+    <div>
+        <form>
+            <fieldset>
+                <legend>Personal information:</legend>
+                First name:<br>
+                <input type="text" name="firstname" value="Mickey" id="fname"><br>
+                Last name:<br>
+                <input type="text" name="lastname" value="Mouse" id="lname"><br><br>
+                <input type="button" value="Submit" onclick="SendDataTOJS()">
+            </fieldset>
+        </form>
+    </div>
+
+
+    <caption>HTML Input Types</caption>
+    <ul>
+        <li> Input Type Text </li>
+        <li>Input Type Password </li>
+        <li>Input Type Submit </li>
+        <li>Input Type Reset </li>
+        <li>Input Type Radio </li>
+        <li>Input Type Checkbox </li>
+        <li>Input Type Butto </li>
+    </ul>
+
+
+    <script>
+        function SendDataTOJS() {
+
+
+            // var fName = document.getElementById(fname).value();
+            // var lName = document.getElementById(lname).value();
+            // console.log('Click SendDataTOJS', fName, lName)
+
+        }
+    </script>
+</body>
+
+</html>

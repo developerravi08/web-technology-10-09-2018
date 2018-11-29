@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CSS 3
+
+    </title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+
+    <style>
+        .myClass {
+            color: #000;
+            background-color: blue;
+        }
+
+
+
+        span#mySpan {
+            color: #000;
+            background-color: blue;
+        }
+
+        p.myClass {
+            color: #000;
+            background-color: red;
+        }
+
+
+        h1,
+        p,
+        span {
+            font-size: 18px;
+            /* padding: 10px;
+            asd
+            asd
+            asd
+            asd
+             */
+            border-color: red;
+            border-width: 1px;
+            border-style: solid;
+
+            /* border: 1px solid red */
+
+            border-left: 10px solid red;
+
+        }
+
+        .all {
+            border: 1px solid red;
+        }
+
+        .borderCr {
+            border: 1px solid #000;
+
+            height: 100px;
+
+            width: 200px;
+
+            border-radius: 10px;
+
+        }
+
+        .margin {
+            border: 1px solid #aaaaaa;
+
+
+            /* margin-left: 10px;
+            margin-right: 10px;
+            margin-bottom: 10px;
+            margin-top: 10%;
+
+            margin: 100px;
+            margin: 10px 10px;
+
+
+            margin: 25px 50px 75px;
+
+            margin: 10px 10px 10px 10px; */
+
+
+            margin: 0 auto;
+
+
+
+        }
+
+        .ch1 {
+            margin: inherit;
+        }
+
+        .mypadding {
+            padding-top: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+        }
+
+        .hw {
+            border: 1px solid red;
+            height: 200px;
+
+            min-height: 100px;
+            max-height: 250px;
+
+            /* min-width: 100px;
+            max-width: 100px */
+        }
+
+        .boxModel {
+            padding: 10px;
+            border: 1px solid red;
+            margin: 10px;
+
+        }
+
+
+        .all {
+            /* margin   */
+            margin: 10px;
+            /*===> All Side*/
+            margin: 10px 10px;
+            /*===> 1st Top, bottom  Side , 2nd Right Left*/
+            margin: 10px 10px 10px;
+            /*===> 1st Top, bottom  Side , 2nd Right Left*/
+            margin: 10px 10px 10px 10px;
+            /*===> 1st Top, bottom  Side , 2nd Right Left*/
+
+            margin-left: 10px;
+
+            margin-right: 10px;
+
+            margin-bottom: 10px;
+
+            margin-top: 10px;
+
+
+            /* padding:  */
+
+
+            border: 1px solid red;
+
+
+            border-width: 10px;
+            border-style: solid;
+            border-color: red;
+
+
+            border-left: 10px;
+            border-left-color: red;
+            border-left-style: solid;
+
+            
+
+
+        }
+    </style>
+
+
+</head>
+
+<body>
+
+    <h1 style="color: aqua"> Welcome to CSS</h1>
+    <p class=" myClass"> My Class Css </p>
+    <p> My Class Css </p>
+    <span>
+        Demo Checck1
+    </span>
+
+    <span id="mySpan">
+        Demo Checck2
+    </span>
+
+    <hr>
+    <p>
+        CSS Colors
+    </p>
+    <ul>
+
+        <li>Background Color </li>
+        <li>color</li>
+        <li>border-color</li>
+    </ul>
+
+    <p>Color Values </p>
+    <ul>
+        <li>rgb </li>
+        <li>rgba </li>
+        <li> HEX Value </li>
+        <li>HSL Value </li>
+    </ul>
+
+    <p>CSS Border Properties </p>
+
+    <div>
+        <ul>
+            <li>
+                Border Style
+                <ol>
+                    <li> dotted - Defines a dotted border </li>
+                    <li> dashed - Defines a dashed border </li>
+                    <li> solid - Defines a solid border </li>
+                    <li> double - Defines a double border </li>
+                    <li> groove - Defines a 3D grooved border. The effect depends on the border-color value </li>
+                    <li> ridge - Defines a 3D ridged border. The effect depends on the border-color value </li>
+                    <li> inset - Defines a 3D inset border. The effect depends on the border-color value </li>
+                    <li> outset - Defines a 3D outset border. The effect depends on the border-color value </li>
+                    <li> none - Defines no border </li>
+                    <li> hidden - Defines a hidden border </li>
+                </ol>
+            </li>
+            <li>Border Width : border-width: 5px; </li>
+
+            <li>Border Color </li>
+
+            <li>Rounded Borders</li>
+
+        </ul>
+        <div class="borderCr">
+            Demo 5I
+        </div>
+
+    </div>
+
+
+    <div>
+        <p> CSS Margins </p>
+
+
+        <div class="margin">
+            margin
+
+            <div class="ch1">
+                ch1
+            </div>
+        </div>
+
+    </div>
+    <div>
+        <p>CSS Padding </p>
+    </div>
+
+    <div class="hw">
+
+        height check
+
+
+    </div>
+
+    <div class="boxModel">
+        boxModel
+    </div>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+</body>
+
+</html>
